@@ -18,7 +18,7 @@ def main():
 			print("(+) Email válido: "+result['data']['email'])
 			content = emails_validos.writelines(line)
 		else:
-			print("(+) Error na API")
+			pass
 	arquivo.close()
 	emails_validos.close()
 main()
